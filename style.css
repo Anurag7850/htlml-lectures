@@ -1,0 +1,64 @@
+/*p{
+    color: blue;
+}
+a{
+    color: blue;
+}*/
+/*these are decendent combinator*/
+p,a{
+    color: blue;
+}
+h1{
+    color:darkgreen;
+}
+li{
+    list-style-type: square;
+}
+.spacial{
+    color: darkred;
+    font-weight: bolder;
+
+}
+li em{
+    color: darkorange;
+}
+/*adjecnt combinator*/
+h1+p{
+    font-size: 200%;
+}
+/*pseudo class selctor
+*/
+a:hover{
+    color: darkslateblue;
+    text-decoration: deeppink;
+}
+body h1+p .spacial{
+    color: indigo;
+    background-color: lavenderblush;
+    padding: 5px;
+}
+/*id selector*/
+#heading{
+    color: olive;
+    background-color: paleturquoise;
+}
+p#one{
+    color: red;
+}
+/*atribute selecor*/
+li[class]{
+    font-size: 300%;
+    
+}
+li[class="a"]{
+    color: saddlebrown;
+}
+/*li[class~="a b"]{
+    color: salmon;
+}*/
+
+/*everthing selctor
+
+*{
+    list-style-type: none;
+}
