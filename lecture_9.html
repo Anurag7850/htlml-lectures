@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 14px Georgia, serif;
+    background: #ccc;
+}
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section{
+    display: block;
+}
+
+h2{
+    font: 24px Georgia;
+    margin: 0 0 10px 0;
+}
+h3{
+    margin: 0 0 8px 0;
+}
+
+p{
+    margin: 0 0 20px 0;
+}
+
+#fluid-wrap{
+    width: 650px;
+    
+    margin: 60px auto;
+    padding: 20px;
+    background: #eee;
+    overflow: hidden;
+}
+#sidebar{
+    width: 35px;
+    float: left;
+}
+
+#sidebar ul{
+       list-style: none;
+}
+
+#sidebar ul li a{
+    color: #900;
+    text-decoration: none;
+    padding: 3px 0;
+    display: block;
+}
+
+@media all and (min-width:1001px){
+    #sidebar ul li a:after{
+        content: attr(data-email);
+        font-size:11px;
+        font-style: italic;
+        color: #666;
+    } 
+}
+
+
+@media all and (max-width:1001px) and (min-width:700px){
+    #sidebar ul li a:before {
+        content: "Email";
+       
+        font-style: italic;
+        color: #666;
+    } 
+}
+
+
+#main-content{
+    width: 65%;
+    float: right;
+} 
+
+
+
+    </style>
+   
+    <title>Responsiveness</title>
+    
+   
+</head>
+<body>
+<div id="fluid-wrap">
+
+    <div id="sidebar">
+        <h3>
+            Team apna college:
+        </h3>
+        <ul id="nav">
+            <li><a  data-email="anuragvaisnva89@gmail.com" href="mailto:anurgvaishnav89@gmail.com"> Anurag vaishnav</a></li>
+            <li><a  data-email="anuragvaisnva89@gmail.com" href="mailto:anurgvaishnav89@gmail.com"> Anurag vaishnav</a></li>
+            <li><a  data-email="anuragvaisnva89@gmail.com" href="mailto:anurgvaishnav89@gmail.com"> Anurag vaishnav</a></li>
+
+        </ul>
+
+    </div>
+
+
+    <div id="main-content">
+
+    <p>Introduction:
+        Technical communication is the essence of organizational life and a prerequisite to 
+        effective management. It not only makes professional interaction possible but also 
+        directs the flow of technical information and knowledge for the guidance of 
+        technocrats, engineers, and others in their professional activities. It motivates 
+        scientists and researchers to act to achieve individual as well as social and 
+        organizational objectives and develops information and understanding essential for 
+        effective group functioning. 
+        Moreover, it leads to unification between the activities of individuals as a work 
+        team and helps to foster positive attitudes required for motivation, cooperation, and other 
+        important organizational processes. 
+        Finally, it ensures free exchange of information and ideas and promotes scientific 
+        temper and maintenance of professional relations. Technical communication plays 
+        an important role in an organization. All managerial or administrative activities involve 
+        communication. When you write reports, give instructions, or read brochures and 
+        manuals you are involved in the process of communication. The success of any 
+        organization is largely recognized by the quality and quantity of information flowing 
+        through its personnel. Technical communication in an organization may exist equally 
+        important in both Oral and Written form. An organization becomes an organized whole 
+        because of its communication. Therefore, technical communication can never be ignored.
+    </p>
+    </div>
+    
+</div>
+    
+</body>
+</html>
